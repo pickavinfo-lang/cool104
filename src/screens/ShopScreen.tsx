@@ -14,7 +14,7 @@ export const ShopScreen = ({ navigation }: Props) => {
   if (loading || !coins) return null;
 
   const handleWatchAd = async () => {
-    // TODO: Integrate expo-ads-admob rewarded ad here.
+    // TODO: Integrate a rewarded ad SDK here (needs a custom dev client, not Expo Go).
     // For now this simulates a successful ad view.
     const success = await watchAdForCoins();
     if (success) {
