@@ -35,8 +35,7 @@
       ]
     ],
     "experiments": {
-      "reactCompiler": true,
-      "baseUrl": "/cool104"
+      "reactCompiler": true
     }
   }
 }
